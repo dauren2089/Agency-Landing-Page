@@ -21,3 +21,63 @@ h3 {
     font-weight: bold;
     color: #554d89;
 }
+.devider {
+    border: none;
+    border-bottom: 1px solid #E1E4ED;
+}
+.wrapper {
+    width: 1146px;
+    margin: 0 auto;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 2.4rem 0 1.7rem;
+}
+.top-header__text {
+    color: #716C80;
+    font-size: 1.6rem;
+}
+
+.top-header__phone-text {
+    color: #716C80;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.top-header__phone-text:hover {
+    text-decoration: underline;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.6rem;
+}
+.header-navbar {
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    display: block;
+    margin-right: 4.02rem;
+}
+.header__menu {
+    display: flex;
+}
+.header__menu-item {
+    margin-right: 3rem;
+}
+.header__menu-item:last-child {
+    margin-right: 0;
+}
+.header__menu-link {
+
+}
+.header__submenu {
+    display: none;
+}
+.header-actions {
+
+}
