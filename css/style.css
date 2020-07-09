@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+html {
+    font-size: 10px;
+}
+body {
+    background-color: #ffffff;
+    font-family:"Nunito", sans-serif;
+    color: #5b5766;
+    font-size: 1.8rem;
+}
+ul {
+    list-style: none;
+}
+h1,
+h2,
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #554d89;
+}
