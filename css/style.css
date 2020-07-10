@@ -61,24 +61,12 @@ h3 {
     font-size: 1.6rem;
     text-align: center;
     color: #FFFFFF;
+    text-decoration: none;
 }
 .btn-dark:hover {
     color: #6852ED;
     border: 1px solid #6852ED;
     background: #ffffff;
-}
-.btn-bottom {
-    display: flex;
-    position: absolute;
-    bottom: 0.8rem;
-    left: 50%;
-    transform: translateX(50%);
-    width: 110px;
-    height: 110px;
-    background: #6852ED;
-    border-radius: 50%;
-    color: #ffffff;
-    text-decoration: none;
 }
 .link {
     border: none;
@@ -106,7 +94,6 @@ h3 {
     width: 1146px;
     margin: 0 auto;
 }
-
 .top-header {
     display: flex;
     justify-content: space-between;
@@ -117,13 +104,11 @@ h3 {
     color: #716C80;
     font-size: 1.6rem;
 }
-
 .top-header__phone-text {
     color: #716C80;
     font-size: 1.6rem;
     text-decoration: none;
 }
-
 .top-header__phone-text:hover {
     text-decoration: underline;
 }
@@ -219,6 +204,19 @@ h3 {
 .stage__actions .btn-dark {
     margin-right: 3rem;
 }
+.btn-bottom {
+    display: flex;
+    position: absolute;
+    bottom: 0.8rem;
+    left: 50%;
+    transform: translateX(50%);
+    width: 110px;
+    height: 110px;
+    background: #6852ED;
+    border-radius: 50%;
+    color: #ffffff;
+    text-decoration: none;
+}
 .btn-bottom > i {
     margin:  auto;
     font-size: 4rem;
@@ -234,6 +232,7 @@ h3 {
     border-radius: 10px;
     padding: 3rem;
     width: 36rem;
+    height: 25.8rem;
 }
 .infoblock:hover {
     background: linear-gradient(17.64deg, #6852ED 16.67%, #BA43FC 100%);
@@ -245,7 +244,6 @@ h3 {
     font-size: 3.2rem;
     margin-bottom: 3rem;
 }
-
 .infoblock__title {
     font-size: 2.2rem;
     margin-bottom: 1.9rem;
@@ -298,4 +296,121 @@ h3 {
 }
 .article .link {
     margin-left: 3rem;
+}
+.video-blog {
+    display: flex;
+    justify-content: center;
+    /*background-color: #e8e9ea;*/
+    width: 100%;
+    height: 480px;
+    background: linear-gradient(180deg, #fefefe 0%, #fcf8e3 100%);
+    mix-blend-mode: normal;
+}
+.video-blog__circles {
+    display: block;
+
+}
+.bp-circle {
+    position: relative;
+    top: 70px;
+    right: 370px;
+    width: 181px;
+    height: 181px;
+    background: #BA43FC;
+    border-radius: 50%;
+}
+.sb-circle {
+    position: relative;
+    top: 80px;
+    right: 100px;
+    width: 20px;
+    height: 20px;
+    background: #6852ED;
+    border-radius: 50%;
+}
+.mp-circle {
+    position: relative;
+    bottom: 150px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    background: #BA43FC;
+    border-radius: 50%;
+}
+.video-blog__player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video-blog__player-go {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(26.57deg, #6852ED 16.67%, #BA43FC 100%);
+    border-radius: 50%;
+    margin-bottom: 2.4rem;
+    color: #ffffff;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.video-blog__player-go > i {
+    margin:  auto;
+    font-size: 3rem;
+}
+.video-blog__title {
+    font-size: 2.8rem;
+    margin-bottom: 1.9rem;
+}
+.video-blog__text {
+    text-align: center;
+    width: 411px;
+}
+.sp-circle {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    width: 37px;
+    height: 37px;
+    background: #BA43FC;
+    border-radius: 50%;
+}
+.mb-circle {
+    position: relative;
+    top: 250px;
+    left: 350px;
+    width: 80px;
+    height: 80px;
+    background: #6852ED;
+    border-radius: 50%;
+}
+.solution {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8.1rem;
+}
+.solution_infoblock_up {
+    margin: 0 3rem 3rem 0;
+}
+.solution_infoblock_down {
+    margin: 3rem 0 0 0;
+}
+.solution__content {
+    margin-left: 6rem;
+    width: 33rem;
+}
+.solution__title {
+    width: 412px;
+    font-size: 3.4rem;
+    line-height: 46px;
+    padding-bottom: 3rem;
+}
+.solution__text {
+    color: #716C80;
+    margin-bottom: 5rem;
+    font-size: 1.8rem;
+    line-height: 28px;
 }
