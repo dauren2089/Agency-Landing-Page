@@ -240,7 +240,6 @@ h3 {
 .infoblock:hover {
     background: linear-gradient(17.64deg, #6852ED 16.67%, #BA43FC 100%);
     box-shadow: 0px 0px 20px rgba(104, 82, 237, 0.8);
-    border-radius: 10px;
 }
 .infoblock .fas {
     color: #6852ED;
@@ -268,7 +267,7 @@ h3 {
 .infoblock:hover .infoblock__text {
     color: #ffffff;
 }
-.infoblock:hover .infoblock_link {
+.infoblock:hover .link {
     display: inline-block;
 }
 .article {
@@ -758,5 +757,184 @@ h3 {
 
     margin-bottom: 2.8rem;
 }
+.footer {
+    overflow-y: hidden;
+    height: 500px;
+}
+.footer > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.footer__section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+/*.footer__contact {*/
+/*    width: 360px;*/
+/*}*/
+.footer__contact_title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+}
+.footer__contact_content {
+    display: flex;
+    /*align-content: center;*/
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.footer__contact_icon {
+    font-size: 42px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-right: 2rem;
+}
+.footer__contact_text {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footer__contact_phone {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+.footer__contact_addr {
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.footer__contact_adrr_text {
+    width: 36rem;
+    margin-bottom: 1rem;
+}
+.footer__link_text {
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.footer__link_text:hover {
+    text-decoration: underline;
+}
+.footer__links {
+    margin-left: 109px;
+}
+.footer__title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #554D89;
+    margin-bottom: 3rem;
+}
+.footer__links-items {
+    display: flex;
+    flex-flow: row wrap;
 
+    /*width: 320px;*/
+}
+.footer__link-item {
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #554D89;
+    text-decoration: none;
 
+    display: block;
+    width: 130px;
+}
+.footer__link-item:nth-child(odd) {
+    margin-right: 6rem;
+}
+.footer__link-item:nth-child(n + 3) {
+    margin-top: 1rem;
+}
+.footer__divider {
+    width: 99px;
+    height: 4px;
+    background: #E1DCFF;
+    margin-top: 7rem;
+}
+.footer__copyright {
+    font-size: 16px;
+    line-height: 27px;
+    color: #716C80;
+    margin-top: 1.3rem;
+}
+.footer__subscribe-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 299px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 1px #6852ed;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+.footer__text-field {
+    border: none;
+    padding: 1.1rem 0 1.2rem 2.4rem;
+    line-height: 1.5;
+    color: #716c80;
+    font-size: 1.8rem;
+    outline: none;
+}
+.footer__form-btn {
+    background-color: transparent;
+    color: #6852ed;
+    font-size: 1.6rem;
+    margin-right: 2.1rem;
+    border: none;
+    outline: none;
+}
+.footer__subscribe-disclaimer {
+    width: 263px;
+    opacity: 0.8;
+    line-height: 1.5;
+    color: #716c80;
+}
+.footer__big-oval {
+    position: absolute;
+    left: -37rem;
+    top: -20rem;
+    z-index: -1;
+    width: 485px;
+    height: 1213px;
+    background: #6852ed;
+    border-radius: 242.5px;
+    transform: rotate(-136deg);
+}
+.footer__circle_violet {
+    width: 6rem;
+    height: 6rem;
+    right: -7rem;
+    bottom: 0;
+}
+.footer__circle_dark-small {
+    width: 2rem;
+    height: 2rem;
+    bottom: 0;
+    right: 0;
+}
+.footer__circle_dark-big {
+    width: 10rem;
+    height: 10rem;
+    top: 0;
+    right: -18rem;
+}
+.footer__circle_dark-hidden {
+    width: 15rem;
+    height: 15rem;
+    left: 48%;
+    bottom: -20rem;
+}
