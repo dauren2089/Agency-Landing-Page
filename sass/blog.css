@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
 .blog__title {
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -55,9 +62,8 @@
   cursor: pointer;
 }
 
-.blog__player-go > i {
-  margin: auto;
-  font-size: 3rem;
+.blog__player i {
+  font-size: 1.5rem;
 }
 
 /*mix-blend-mode: normal;*/
@@ -132,6 +138,26 @@
   height: 611px;
   bottom: 480px;
   right: -205px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+}
+
+.square {
+  background-color: #7a3de0;
+  margin: 3px;
+  width: 14px;
+  height: 14px;
+  box-shadow: 0 0 3px #ffffff;
+  transition: 1s ease;
+}
+.squarehover {
+  transition-duration: 1s;
 }
 
 /*# sourceMappingURL=blog.css.map */

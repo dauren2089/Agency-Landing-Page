@@ -8,10 +8,17 @@
   line-height: 42px
   color: $fontcolor
 
-@mixin text-font
+@mixin text-font ($font-size: 18)
   line-height: 28px
   color: $p-color
   font-family: Nunito, sans-serif
   font-style: normal
   font-weight: normal
   font-size: 18px
+
+@mixin large-text
+  font:
+    family: Arial
+    size: 20px
+    weight: bold
+  color: #ff0000
