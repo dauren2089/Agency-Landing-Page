@@ -1,0 +1,117 @@
+@import "variables"
+@import "mixins"
+
+*
+  margin: 0
+  padding: 0
+
+.blog__title
+  @include title-font (30px, $h1-color)
+  margin-bottom: 1.9rem
+
+
+.blog__text
+  @include text-font
+  text-align: center
+  width: 411px
+
+.video-blog
+  display: flex
+  justify-content: center
+  background-color: $white-bckg
+  width: 100%
+  height: 480px
+  overflow: hidden
+
+.video-blog__player
+  margin-top: 130px
+  display: flex
+  flex-direction: column
+  align-items: center
+  position: absolute
+
+.blog__player
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 80px
+  height: 80px
+  background: linear-gradient(26.57deg, #6852ED 16.67%, #BA43FC 100%)
+  border-radius: 50%
+  border: none
+  margin-bottom: 2.4rem
+  color: white
+  cursor: pointer
+
+.blog__player-go > i
+  margin:  auto
+  font-size: 3rem
+
+
+
+/*mix-blend-mode: normal;*/
+
+//.video-blog__circles
+//  display: block
+
+.circle-blue
+  position: relative
+  background: $blue-circle
+  border-radius: 50%
+
+.circle-purple
+  position: relative
+  background: $purple-circle
+  border-radius: 50%
+
+.oval-blue
+  position: relative
+  transform: rotate(45deg)
+  background: $blue-circle
+  border-radius: 100px
+
+.circle-left-big
+  width: 181px
+  height: 181px
+  top: 68px
+  right: 233px
+
+.circle-left-xsm
+  width: 20px
+  height: 20px
+  top: 274px
+
+.circle-left-sm
+  width: 50px
+  height: 50px
+  top: 30px
+
+.oval-left
+  width: 185px
+  height: 611px
+  top: 350px
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+
+.circle-right-sm
+  width: 37px
+  height: 37px
+  top: 49px
+  left: 50px
+
+.circle-right-mid
+  width: 80px
+  height: 80px
+  top: 314px
+  left: 80px
+
+.circle-right-big
+  width: 215px
+  height: 215px
+  top: 109px
+  left: 370px
+
+.oval-right
+  width: 185px
+  height: 611px
+  bottom: 480px
+  right: -205px
