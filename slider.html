@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="vieport" content="width=device-width, initital-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="sass/slider.css">
+</head>
+<body>
+    <h1>Slider JS</h1>
+    <div class="slider">
+        <div class="slider__content">
+            <div class="slider__container">
+                <img class="slider__image fade" src="./img/1.jpg" alt="">
+            </div>
+        </div>
+        <div class="slider__actions">
+            <div class="slider__controls">
+                <div class="slider__dots">
+                    <span class="slider__dot active" onclick="changeIndex(0)"></span>
+                    <span class="slider__dot" onclick="changeIndex(1)"></span>
+                    <span class="slider__dot" onclick="changeIndex(2)"></span>
+                    <span class="slider__dot" onclick="changeIndex(3)"></span>
+                </div>
+            </div>
+            <div class="slider__btn">
+                <button class="slider__nav slider__nav-left" onclick="nextIndex(-1)">
+                    <
+                </button>
+                <button class="slider__nav slider__nav-right" onclick="nextIndex(1)">
+                    >
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/slider.js"></script>
+</body>
+</html>
