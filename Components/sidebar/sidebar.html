@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initital-scale=1.0">
+    <title>Sidebar example</title>
+    <script src="https://kit.fontawesome.com/41a8dd7285.js"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../sass/sidebar.css">
+</head>
+<body>
+    <div class="window">
+        <div class="sidebar">
+            <ul class="side__items">
+                <li class="items">Home</li>
+                <li class="items">Article</li>
+                <li class="items">About us</li>
+                <li class="items">Contact</li>
+            </ul>
+            <div class="side__action">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <div class="main active">
+            <article class="main__article">
+                <h1 class="main__title">The Main Section</h1>
+                <p class="main__text">This example use media queries to transform the sidebar to a top navigation bar when the screen size is 700px or less.
+                    We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.
+                    Resize the browser window to see the effect.</p>
+            </article>
+            <div class="main__action">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </div>
+    <script src="sidebar.js"></script>
+</body>
+</html>

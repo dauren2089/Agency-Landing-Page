@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-logo {
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+  color: #49a6e9;
+  font-size: 20px;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.links {
+  height: auto;
+  display: flex;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+.links a {
+  padding: 0;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #49a6e9;
+  transition: all 0.3s linear;
+}
+.links a:hover {
+  color: #8bcbf9;
+  padding: 0;
+  background: transparent;
+}
+
+.social-icons {
+  display: flex;
+}
+.social-icons a {
+  margin: 0 0.5rem;
+  color: #49a6e9;
+  transition: all 0.3s linear;
+}
+.social-icons a:hover {
+  color: #8bcbf9;
+}
+
+.icon-item {
+  font-size: 25px;
+}
+.icon-item a {
+  text-decoration: none;
+  color: #49a6e9;
+  transition: all 0.3s linear;
+}
+.icon-item a:visited {
+  color: #49a6e9;
+}
+.icon-item a:hover {
+  color: #8bcbf9;
+}
+
+@media only screen and (max-width: 875px) {
+  .nav-header {
+    padding: 0;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-toggle {
+    display: block;
+    font-size: 1.5rem;
+    color: #49a6e9;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+  .nav-toggle:hover {
+    color: #49a6e9;
+    transform: rotate(90deg);
+  }
+
+  .links {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+  }
+
+  .show-links {
+    height: 10rem;
+  }
+
+  .social-icons {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=navbar.css.map */
