@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon filter</title>
+    <link rel="stylesheet" href="../../sass/filter.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41a8dd7285.js"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="hero">
+        <container>
+            <h1>Icon Filter</h1>
+            <div class="filter">
+                <div class="filter-btns">
+                    <div data-filter="all" class="filter-btns__item">All</div>
+                    <div data-filter="signs" class="filter-btns__item">Signs</div>
+                    <div data-filter="people" class="filter-btns__item">People</div>
+                    <div data-filter="animals" class="filter-btns__item">Animals</div>
+
+                    <select name="filter" id="filter-options">
+                        <option value="all">All</option>
+                        <option value="signs">Signs</option>
+                        <option value="people">People</option>
+                        <option value="animals">Animals</option>
+                    </select>
+                </div>
+                <div class="filter-contents">
+                    <div class="all signs scale-in-ver-center">
+                        <i class="fab fa-galactic-republic"></i>
+                    </div>
+                    <div class="all signs scale-in-ver-center">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <div class="all signs scale-in-ver-center">
+                        <i class="fab fa-canadian-maple-leaf"></i>
+                    </div>
+                    <div class="all people scale-in-ver-center">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <div class="all people scale-in-ver-center">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <div class="all people scale-in-ver-center">
+                        <i class="fas fa-female"></i>
+                    </div>
+                    <div class="all animals scale-in-ver-center">
+                        <i class="fas fa-cat"></i>
+                    </div>
+                    <div class="all animals scale-in-ver-center">
+                        <i class="fas fa-crow"></i>
+                    </div>
+                    <div class="all animals scale-in-ver-center">
+                        <i class="fas fa-frog"></i>
+                    </div>
+                </div>
+            </div>
+        </container>
+    </div>
+    <script src="filter.js"></script>
+</body>
+</html>
