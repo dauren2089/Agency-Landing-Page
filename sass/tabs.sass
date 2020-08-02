@@ -1,0 +1,77 @@
+*
+  margin: 0
+  padding: 0
+
+h1
+  font-family: 'Orbitron', cursive
+  font-size: 40px
+  color: #c59d5f
+  text-align: center
+  text-transform: uppercase
+  margin: 0
+  padding-bottom: 25px
+
+h2, h3, h4
+  font-family: 'Orbitron', sans-serif
+  font-size: 18px
+  text-transform: uppercase
+  padding: 25px 0
+  margin: 0
+
+p
+  font-family: 'Orbitron', sans-serif
+  font-size: 14px
+  font-weight: normal
+  padding: 10px 0
+  margin: 0
+
+.hero
+  background: url("../Components/Modal_page/modal.jpg") center/cover no-repeat
+  display: -ms-grid
+  display: grid
+  place-items: center
+  min-height: 100vh
+
+.hero__tabs
+  width: 620px
+  max-height: 500px
+  border-radius: 25px
+  background-color: #fdfdfe
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1)
+  overflow: hidden
+
+  padding: 0 25px 25px 25px
+
+.tab-head
+  display: flex
+
+.tab-head__item
+  padding: 1rem
+  border-bottom: 2px solid transparent
+
+  font-family: 'Orbitron', sans-serif
+  font-size: 14px
+  font-weight: normal
+  text-transform: capitalize
+
+  cursor: pointer
+  &:hover, &.active
+    border-bottom: 3px solid #c59d5f
+
+.tab-content
+  position: relative
+
+.tab-content__item
+  position: absolute
+  left: 0
+  top: 0
+
+  opacity: 0
+  transform: translateX(100px)
+
+.active
+  transition: all 250ms
+  opacity: 1
+  transform: translateX(0)
+  position: static
+
